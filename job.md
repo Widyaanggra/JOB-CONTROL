@@ -81,39 +81,32 @@ $ ( ./p1.sh ; ./p3.sh ) &
  5.Jobs a. Buat shell-script yang melakukan loop dengan nama pwaktu.sh, setiap 10 detik, kemudian menyimpan tanggal dan jam pada file hasil.
  ![image](https://github.com/Widyaanggra/JOB-CONTROL/assets/126336053/3b1c24ea-2732-481f-9515-ec34b088e5ba)
 
-b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background sebagai berikut : 
-![image](https://github.com/Widyaanggra/JOB-CONTROL/assets/126336053/9f79e6a4-7122-4c79-bfd0-7361c30d0e53)
+b. Jalankan sebagai background; kemudian jalankan satu program (utilitas find) di background sebagai berikut :
 
-c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke background image
+ ![image](https://github.com/Widyaanggra/JOB-CONTROL/assets/126336053/d82c5c13-551d-4f23-94a0-21940c05d61f)
+
+c. Jadikan program ke 1 sebagai foreground, tekan ^Z dan kembalikan program tersebut ke background
+![image](https://github.com/Widyaanggra/JOB-CONTROL/assets/126336053/e15bf24b-05af-48e8-80cf-53b08a556922)
 
 d. Stop program background dengan utilitas kil
-image
+ ![image](https://github.com/Widyaanggra/JOB-CONTROL/assets/126336053/97ff3e87-b768-4397-a837-b36d37c57251)
+
 
 $ kill [Nomor PID]
-image
-
 History
-a. Ganti nilai HISTSIZE dari 1000 menjadi 20 image
+a. Ganti nilai HISTSIZE dari 1000 menjadi 20
+ ![image](https://github.com/Widyaanggra/JOB-CONTROL/assets/126336053/84ec362d-eb73-4740-958b-6645dccbdf93)
 
-b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir dilakukan image
+b. Gunakan fasilitas history dengan mengedit instruksi baris ke 5 dari instruksi yang terakhir dilakukan
+![image](https://github.com/Widyaanggra/JOB-CONTROL/assets/126336053/c33a6dac-1d02-4b25-962e-bd1f9e786040)
 
-c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer image
+c. Ulangi instruksi yang terakhir. Gunakan juga ^P dan ^N untuk bernavigasi pada history bufer 
+![image](https://github.com/Widyaanggra/JOB-CONTROL/assets/126336053/bc39fabc-20fc-4631-b0bf-56a7c7ba8a36)
 
-d. Ulangi instruksi pada history bufer nomor 150 image
-
+d. Ulangi instruksi pada history bufer nomor 150
 e. Ulangi instruksi dengan prefix “ls”
-image
+![image](https://github.com/Widyaanggra/JOB-CONTROL/assets/126336053/6dfd8b34-65a8-407d-88f0-8206f37bc7d1)
 
-Kesimpulan :
-Percobaan ini menunjukkan bahwa ketelitian sangatlah penting dalam menjalankan percobaan tentang profile, history, dan job control.
-Bahkan sebuah kesalahan sekecil apapun, seperti kurangnya satu spasi saja, bisa mengakibatkan masuk ke direktori yang berbeda.
-Selain itu, langkah penting yang harus dilakukan setelah pembuatan program adalah melakukan eksekusi file terlebih dahulu agar memperoleh izin untuk menjalankan program tersebut.
- 
- 
- 
- 
- 
- 
- 
  
 
+Kesimpulan alternatif dari eksperimen ini adalah bahwa keberhasilan dalam menjalankan percobaan terkait dengan profile, history, dan kontrol pekerjaan sangat tergantung pada tingkat ketelitian yang diterapkan. Kesalahan kecil, bahkan seperti kesalahan dalam formatasi spasi, dapat menghasilkan hasil yang sangat berbeda, bahkan menyebabkan akses ke direktori yang tidak diinginkan. Selain itu, langkah penting setelah menyelesaikan pengembangan program adalah memastikan bahwa file dieksekusi dengan benar untuk memperoleh izin yang diperlukan agar program dapat berjalan dengan lancar.
